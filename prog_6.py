@@ -3,6 +3,7 @@
 emp_list = []
 # ASk for user input
 while True:
+    emp_list.clear()  
     for i in range(1,11):
         ans = float(input(f"Enter number {i}: "))
         emp_list.append(ans)
