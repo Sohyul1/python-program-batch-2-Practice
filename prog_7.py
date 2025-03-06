@@ -4,6 +4,7 @@ empt_list = []
 # Ask for user input
 while True:
     empt_list.clear()  
+   
     for i in range(1,11):
         ans = float(input(f"Enter number {i}: "))
         # Filter out the even numbers
